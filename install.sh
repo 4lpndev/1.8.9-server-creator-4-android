@@ -15,8 +15,8 @@ git clone https://github.com/Yisus7u7/termux-ngrok
 
 cd termux-ngrok
 bash install.sh
-rm -rf termux-ngrok
 cd ..
+rm -rf termux-ngrok
 #install 1.8.9 server file
 curl https://launcher.mojang.com/v1/objects/b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd/server.jar --output server.jar 
 
