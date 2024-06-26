@@ -26,4 +26,4 @@ echo "eula=true" > eula.txt
 #start server
 echo "java -Xmx2048M -Xms2048M -jar server.jar nogui" > launch.sh
 
-echo 'installed successfully! please run bash launch.sh to start the server.'
+echo 'installed successfully! please run bash ./serv/launch.sh to start the server.'
