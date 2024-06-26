@@ -24,4 +24,6 @@ curl https://launcher.mojang.com/v1/objects/b58b2ceb36e01bcd8dbf49c8fb66c55a9f06
 echo "eula=true" > eula.txt
 
 #start server
-java -Xmx2048M -Xms2048M -jar server.jar nogui
+echo "java -Xmx2048M -Xms2048M -jar server.jar nogui" > launch.sh
+
+echo "installed successfully! please run \"bash launch.sh"\ to start the server."
